@@ -68,7 +68,8 @@ def get_location_details(record_id, address, api_key):
     return None
 
 # API key for Google Geocoding
-api_key = "AIzaSyBZnkzaPLtNe3QCc2GnsEsjRktbdrUlVtI"
+# give your api key here
+api_key = ""
 
 # Loop through each row in the data and fetch location details
 for i, row in data.iterrows():
